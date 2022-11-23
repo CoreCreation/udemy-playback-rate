@@ -1,0 +1,19 @@
+{
+    "name": "Udemy Playback Rate",
+    "version": "0.0.1",
+    "description": "Set that slider to 2.5",
+    "manifest_version": 3,
+    "author": "TheCoreCreation",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Udemy Playback Rate"
+    },
+    "host_permissions": [
+        "https://www.udemy.com/*"
+    ],
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ]
+}
